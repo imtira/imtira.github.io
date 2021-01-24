@@ -1,39 +1,105 @@
+html,
 body {
-    background-color: #ebebeb;
-    color: #16181c;
-    font-family: sans-serif;
-    display: flex;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+  margin: 0;
+  height: 100%;
+  padding: 0;
 }
 
-h1 {
-    font-family: serif;
-    font-size: 40px;
-    margin-bottom: 0px;
+body {
+  font-family:        "Consolas", "Inconsolata", "Lucida Console", Monospace;
+  font-size:          15px;
+  line-height:        120%;
+  min-height:         100%;
 }
 
-h2 {
-    font-family: serif;
-    font-size: 30px;
-    margin-bottom: 0;
+.number {
+  font-family:        "Consolas", "Inconsolata", "Lucida Console", Monospace;
+  font-size:          15px;
 }
 
-
-ul li {
-    margin-top: 2px;
+.wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
-.left {
-    height: 100%;
-    width: 50%;
-    justify-content: flex-start;
-    margin-right: 5%;
+.main {
+  border:             0 solid transparent;
+  font-size:          15px;
+  padding-bottom:     48px;
+  margin-left:        auto;
+  margin-right:       auto;
 }
 
-.right {
-    height: 100%;
-    width: 50%;
-    justify-content: flex-start;
+div.footer {
+  width:              100%;
+  position:           sticky;
+  bottom:             0;
+  left:               0;
+  vertical-align:     middle;
+  background-color:   #DDDDDD;
+  cursor:             pointer;
+  min-width:          512px;
+  padding-top:        10px;
+  padding-bottom:     10px;
+  font-family:        "Consolas", "Inconsolata", "Lucida Console", Monospace;
+  font-size:          15px;
+}
+
+div.footer a {
+  color:              #888888;
+  text-decoration:    none;
+  vertical-align:     middle;
+  padding:            10px;
+}
+
+div.header {
+  font-family:        "Consolas", "Inconsolata", "Lucida Console", Monospace;
+  line-height:        120%;
+  font-weight:        bold;
+  font-size:          16px;
+  padding: 12px 16px 0 16px;
+  min-width:          480px;
+}
+
+div.header a {
+  color:              #000000;
+  text-decoration:    none;
+  cursor:             pointer;
+}
+
+div.header span {
+  color:              #000000;
+}
+
+div.header .back_arrow {
+  transform:rotate(90deg) scale(0.75);
+  line-height:0;
+  position:relative;
+  bottom:-0.2em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+table, tr, td {
+  padding: 4px;
+  border: 0 solid transparent;
+}
+
+a:link, a:visited {
+color: #777777;
+text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #000000;
+  text-decoration: underline;
+}
+
+hr {
+  height:             1px;
+  border-width:       0;
+  color:              #888888;
+  background-color:   #888888;
 }
